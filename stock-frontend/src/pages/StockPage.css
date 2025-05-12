@@ -1,0 +1,51 @@
+.stock-card {
+  transition: box-shadow 0.3s ease;
+}
+
+.stock-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.data-point-hover {
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.data-point-hover:hover {
+  opacity: 0.7;
+}
+
+.average-line {
+  stroke-dasharray: 5, 5;
+  animation: dash 15s linear infinite;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 1000;
+  }
+}
+
+.info-section {
+  border-left: 4px solid #8884d8;
+  padding-left: 16px;
+  margin-top: 16px;
+}
+
+.time-selector {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Responsive adjustments */
+@media (max-width: 960px) {
+  .chart-container {
+    height: 300px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .chart-container {
+    height: 250px !important;
+  }
+} 
