@@ -4,3 +4,5 @@ The output screenshots have to be taken of API calls to your app and not the tes
 
 <img width="1097" alt="image" src="https://github.com/user-attachments/assets/6c5884d6-9667-4efb-bd1d-77c4e92ddec6" />
 
+2.Screenshots of Stock Price Aggregation Frontend Web Application
+<img width="1434" alt="image" src="https://github.com/user-attachments/assets/cece01ae-fa97-44a2-814b-fdaa407b6d48" />
