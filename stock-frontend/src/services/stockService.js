@@ -13,7 +13,7 @@ export const fetchStockData = async (symbol, minutes) => {
     
     if (!data || !Array.isArray(data.priceHistory)) {
       console.error("Invalid data format from API:", data);
-      return generateMockStockData(symbol, minutes);
+      throw new Error("Invalid data format from API");
     }
     
     const priceData = data.priceHistory.map(item => ({
@@ -26,7 +26,7 @@ export const fetchStockData = async (symbol, minutes) => {
    
     if (priceData.length === 0) {
       console.warn("No price data returned from API for", symbol);
-      return generateMockStockData(symbol, minutes);
+      throw new Error("No price data returned from API");
     }
   
     const marketData = {
