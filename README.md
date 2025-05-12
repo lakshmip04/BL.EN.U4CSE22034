@@ -1,4 +1,4 @@
-<img width="1097" alt="image" src="https://github.com/user-attachments/assets/6119492f-f3e4-4932-9c89-7c11455e2764" />For question 1, select any backend framework without utilising external libraries for algorithms. 
+For question 1, select any backend framework without utilising external libraries for algorithms. 
 Capture output screenshots from API clients like Insomnia or Postman, displaying request body, response and response time for the average calculator problem. 
 The output screenshots have to be taken of API calls to your app and not the test server
 
